@@ -1,0 +1,21 @@
+import pandas as pd
+see = pd.read_csv(heart )
+print(see)
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as inline
+import seaborn as sns
+
+df=pd.read_csv(r"heart")
+print("***** Shape of the dataset *****")
+df.shape
+print("***** First five rows *****")
+df.head()
+
+print("***** Column names in dataset *****")
+print(list(df.columns))
+
+print("***** Basic Infomation about dataset *****")
+print()
+df.info()
