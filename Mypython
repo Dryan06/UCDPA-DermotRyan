@@ -1,1 +1,10 @@
 Test
+import pandas as pd
+
+see = pd.read_csv(r"C:\Users\dryan\OneDrive - VMware, Inc\VMwareCorp\Desktop\Data\Project UCD\heart.csv")
+print(see)
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as inline
+import seaborn as sns
